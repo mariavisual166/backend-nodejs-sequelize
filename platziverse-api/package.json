@@ -10,16 +10,6 @@
     "start-dev": "DEBUG=platziverse:* nodemon server.js",
     "lint": "standard"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/platzi/platziverse.git"
-  },
-  "author": "Julian Duque <julianduquej@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/platzi/platziverse/issues"
-  },
-  "homepage": "https://github.com/platzi/platziverse#readme",
   "devDependencies": {
     "ava": "^0.21.0",
     "nodemon": "^1.11.0",

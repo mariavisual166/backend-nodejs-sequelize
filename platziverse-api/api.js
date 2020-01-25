@@ -6,11 +6,8 @@ const asyncify = require('express-asyncify')
 const auth = require('express-jwt')
 const guard = require('express-jwt-permissions')()
 const db = require('platziverse-db')
-
 const config = require('./config')
-
 const api = asyncify(express.Router())
-
 let services, Agent, Metric
 
 api.use('*', async (req, res, next) => {
